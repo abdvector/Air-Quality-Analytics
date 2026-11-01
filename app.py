@@ -67,7 +67,7 @@ cols[0].metric('Measurements',f"{stats['counts']['hourly_input']/1e6:.1f}M",help
 cols[1].metric('Stations',f'{len(rank):,}');cols[2].metric('Coverage eligible',f'{len(eligible):,}')
 cols[3].metric('Persistent',f'{int(rank.persistent.sum()):,}')
 st.caption(f"{stats['counts']['acquired_all_parameter_rows']:,} source readings acquired; {stats['counts']['hourly_input']:,} CPCB readings selected for the seven pollutants. All displayed locations are in India.")
-tabs=st.tabs(['Hotspots','Monthly patterns','Compare stations','Data & method'])
+tabs=st.tabs(['Hotspots','Monthly patterns','Compare stations'])
 with tabs[0]:
     st.subheader('Where high pollution repeats')
     if eligible.empty:st.warning('No stations meet the coverage rule. Adjust the period or threshold to explore further.')
@@ -126,25 +126,4 @@ with tabs[2]:
             st.plotly_chart(px.bar(counts,x='defining_pollutant',y='Days',labels={'defining_pollutant':'Pollutant setting the worst band'}),width='stretch')
     else:st.info('Choose up to three stations.')
 
-with tabs[3]:
-    st.subheader('Data, definitions and execution evidence')
-    st.success('Dashboard queries are running against Google BigQuery. Cached results refresh after ten minutes.')
-    cloud_audit=PATHS['audit']/'cloud_execution.json'
-    if cloud_audit.exists():
-        with st.expander('Executed BigQuery jobs'):
-            evidence=json.loads(cloud_audit.read_text())
-            st.dataframe(pd.DataFrame(evidence.get('jobs',[])),hide_index=True,width='stretch')
-    st.json(stats);st.dataframe(load('hourly_quality'),hide_index=True,width='stretch')
-    st.markdown('''
-- **India source:** India Air Quality Database, XKDR Forum (2026), compiling CPCB CAAQM observations. This project selects CPCB stations only; embassy monitors and other chemicals are excluded from the analytical subset.
-- **Time:** publisher timestamps are already IST. UTC hourly keys are created explicitly; calendar grouping remains IST.
-- **Eligibility:** at least 16 observed hours per day. For CO and O3, use the highest eight-hour mean with at least six readings, ending within the same IST day after 07:00. No gaps are filled.
-- **Individual pollutant:** compare to its matching India NAAQS reference and averaging period. Exceedance is a screening result, not a regulatory non-attainment determination.
-- **Combined level:** worst CPCB band among available eligible pollutants, requiring at least three including PM2.5 or PM10. Lead is not available. The score is ordinal (0-5), not official numeric AQI or a validated combined health-risk measure. Missing pollutants may hide worse conditions.
-- **Ozone:** the top two CPCB bands use the maximum observed one-hour value, reflecting the source table's one-hour footnote; lower bands use the eight-hour comparison value.
-- **Coverage:** observed valid days divided by all calendar days in the selected period. Missing days are not clean days. Seasonal schedules or partial operation can reduce coverage.
-- **Scope:** monthly patterns within 2024; no prediction or attribution of pollution causes.
-- **Execution:** the run audit above records BigQuery processing and query evidence. Local DuckDB results provide an independent validation reference. Historical BigQuery tables use date clustering, avoiding Sandbox expiry of 2024 event-date partitions.
-
-[Dataset and attribution](https://airquality.xkdr.org/)  /  [India AQI bands](https://ies.gov.in/arthapedia/concept/national-air-quality-index)  /  [India standards](https://www.ies.gov.in/index.php/arthapedia/concept/ambient-air-quality-standards-india)
-''')
+st.caption("Source: [India Air Quality Database, XKDR Forum](https://airquality.xkdr.org/), compiling CPCB observations. CC BY 4.0.")
