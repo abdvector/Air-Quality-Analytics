@@ -1,0 +1,5 @@
+BigQuery dashboard parity verified on 1 November 2026.
+National PM2.5: 529 station rankings and 180 monthly rows match.
+National combined level: 532 station rankings and 180 monthly rows match.
+Delhi O3, 12 February to 19 May: 39 station rankings and 60 monthly rows match.
+Full cloud-output parity is recorded in data/india/audit/cloud_execution.json.

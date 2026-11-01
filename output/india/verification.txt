@@ -1,0 +1,5 @@
+Final cleanup validation, 1 November 2026
+32 passed in 108.36 seconds.
+Coverage: analytical rules, SQL edge cases, BigQuery query validation and live Streamlit AppTest workflows.
+32 upstream BigQuery DataFrame deprecation warnings.
+No test failures.
