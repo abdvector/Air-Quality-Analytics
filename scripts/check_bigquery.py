@@ -19,7 +19,7 @@ def main():
         required={'stations','station_daily','overall_daily','station_monthly','station_annual','hourly_quality'}
         missing=required-names
         print('Required dashboard tables:', 'READY' if not missing else 'MISSING: '+', '.join(sorted(missing)),flush=True)
-        if missing:print('Authentication works. Upload/build tables using the pipeline account before enabling BigQuery dashboard mode.')
+        if missing:print('Authentication works. Upload/build tables using the pipeline account before starting the dashboard.')
 
 if __name__=='__main__':
     try:main()

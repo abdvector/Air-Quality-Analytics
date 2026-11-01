@@ -24,3 +24,4 @@ data/india/gold/
 data/india/spill/
 data/india/warehouse.duckdb*
 data/india/cloud_upload/
+node_modules/
