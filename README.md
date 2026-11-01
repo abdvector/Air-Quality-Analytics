@@ -11,7 +11,7 @@ python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
-Open http://localhost:8502. **app.py is the only application entry point.** The dashboard requires internet and authenticated BigQuery access. It does not switch to local data when a cloud query fails.
+Open http://localhost:8501. **app.py is the only application entry point.** The dashboard requires internet and authenticated BigQuery access. It does not switch to local data when a cloud query fails.
 
 ## Verified study
 

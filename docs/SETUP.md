@@ -4,7 +4,7 @@
 
 Install Python 3.12 and run `python -m pip install -r requirements.txt` from the project root. Copy `.streamlit/secrets.example.toml` to `.streamlit/secrets.toml`. Set `credentials_file` to the downloaded viewer JSON outside this project. Keep credentials private. The viewer requires BigQuery Job User on the project and BigQuery Data Viewer on dataset `air_quality`.
 
-Run `python scripts/check_bigquery.py` to verify access, then `python -m streamlit run app.py`. The local URL is http://localhost:8502. There is one dashboard entry point and one BigQuery backend.
+Run `python scripts/check_bigquery.py` to verify access, then `python -m streamlit run app.py`. The local URL is http://localhost:8501. There is one dashboard entry point and one BigQuery backend.
 
 ## Rebuild the study
 
