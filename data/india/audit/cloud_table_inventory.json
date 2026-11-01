@@ -1,0 +1,72 @@
+[
+  {
+    "table": "clean_hourly",
+    "type": "VIEW",
+    "rows": 0,
+    "logical_bytes": 0,
+    "expires": "2026-12-31T10:52:45.499000+00:00"
+  },
+  {
+    "table": "hourly_daily",
+    "type": "TABLE",
+    "rows": 1115524,
+    "logical_bytes": 79229507,
+    "expires": "2026-12-31T10:53:02.077000+00:00"
+  },
+  {
+    "table": "hourly_quality",
+    "type": "TABLE",
+    "rows": 7,
+    "logical_bytes": 316,
+    "expires": "2026-12-31T10:51:04.778000+00:00"
+  },
+  {
+    "table": "hourly_raw",
+    "type": "TABLE",
+    "rows": 0,
+    "logical_bytes": 0,
+    "expires": null
+  },
+  {
+    "table": "hourly_raw_retained",
+    "type": "TABLE",
+    "rows": 27021875,
+    "logical_bytes": 2486652888,
+    "expires": "2026-12-31T10:46:51.058000+00:00"
+  },
+  {
+    "table": "overall_daily",
+    "type": "TABLE",
+    "rows": 165652,
+    "logical_bytes": 8553989,
+    "expires": "2026-12-31T10:53:14.061000+00:00"
+  },
+  {
+    "table": "station_annual",
+    "type": "TABLE",
+    "rows": 3616,
+    "logical_bytes": 260490,
+    "expires": "2026-12-31T10:53:16.846000+00:00"
+  },
+  {
+    "table": "station_daily",
+    "type": "TABLE",
+    "rows": 1115522,
+    "logical_bytes": 118973093,
+    "expires": "2026-12-31T10:53:06.472000+00:00"
+  },
+  {
+    "table": "station_monthly",
+    "type": "TABLE",
+    "rows": 41046,
+    "logical_bytes": 3900892,
+    "expires": "2026-12-31T10:53:15.532000+00:00"
+  },
+  {
+    "table": "stations",
+    "type": "TABLE",
+    "rows": 533,
+    "logical_bytes": 40406,
+    "expires": "2026-12-31T10:50:58.969000+00:00"
+  }
+]

@@ -1,0 +1,8 @@
+pollutant,input_rows,invalid_value_rows,negative_rows,invalid_timestamp_rows,unexpected_unit_rows
+NH3,3593165,0,0,0,0
+PM10,3864549,0,0,0,0
+CO,3982313,0,0,0,0
+NO2,3983789,0,0,0,0
+O3,3840559,0,0,0,0
+PM2.5,3892007,0,0,0,0
+SO2,3865493,0,0,0,0

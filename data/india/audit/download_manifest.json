@@ -1,0 +1,116 @@
+{
+  "study_year": 2024,
+  "bulk_source": "https://airquality.xkdr.org",
+  "files": [
+    {
+      "name": "measurements_2024_01.parquet",
+      "url": "https://airquality.xkdr.org/v1/files/v1/measurements/year=2024/month=01/data.parquet",
+      "expected_rows": 4002852,
+      "bytes": 7674743,
+      "rows": 4002852,
+      "sha256": "cd71e0e1a3cba6645eaace96673ea66776e08d42c125806e81e814a05aef80ab",
+      "verified_utc": "2026-10-25T17:24:06.284827+00:00"
+    },
+    {
+      "name": "measurements_2024_02.parquet",
+      "url": "https://airquality.xkdr.org/v1/files/v1/measurements/year=2024/month=02/data.parquet",
+      "expected_rows": 3729942,
+      "bytes": 7131765,
+      "rows": 3729942,
+      "sha256": "0e09f26aa618d9f050e401fea021ec87e69c202f1d5cf94b96c8968a9a387b8a",
+      "verified_utc": "2026-10-25T17:23:57.407357+00:00"
+    },
+    {
+      "name": "measurements_2024_03.parquet",
+      "url": "https://airquality.xkdr.org/v1/files/v1/measurements/year=2024/month=03/data.parquet",
+      "expected_rows": 3939279,
+      "bytes": 7486404,
+      "rows": 3939279,
+      "sha256": "ab7fe2f12b1ce57c25698635733a1921127ec74ed0e52a3ad21aa7ef0b50c717",
+      "verified_utc": "2026-10-25T17:23:59.798445+00:00"
+    },
+    {
+      "name": "measurements_2024_04.parquet",
+      "url": "https://airquality.xkdr.org/v1/files/v1/measurements/year=2024/month=04/data.parquet",
+      "expected_rows": 3766731,
+      "bytes": 7176840,
+      "rows": 3766731,
+      "sha256": "973c6331153bf1642932d14cafbb0d595ded9e2ce609aa97d4c6515778e19e8b",
+      "verified_utc": "2026-10-25T17:24:34.208196+00:00"
+    },
+    {
+      "name": "measurements_2024_05.parquet",
+      "url": "https://airquality.xkdr.org/v1/files/v1/measurements/year=2024/month=05/data.parquet",
+      "expected_rows": 3855369,
+      "bytes": 7465083,
+      "rows": 3855369,
+      "sha256": "bedf06a82d8a37963de5688c62c212776065bf1b506926d952c31fa1b9c25eb1",
+      "verified_utc": "2026-10-25T17:24:09.478616+00:00"
+    },
+    {
+      "name": "measurements_2024_06.parquet",
+      "url": "https://airquality.xkdr.org/v1/files/v1/measurements/year=2024/month=06/data.parquet",
+      "expected_rows": 3672056,
+      "bytes": 6910860,
+      "rows": 3672056,
+      "sha256": "cf2f8569cba677067405dec7dae0c272b42b7615e5f192d64613a5705064c0b2",
+      "verified_utc": "2026-10-25T17:24:14.772762+00:00"
+    },
+    {
+      "name": "measurements_2024_07.parquet",
+      "url": "https://airquality.xkdr.org/v1/files/v1/measurements/year=2024/month=07/data.parquet",
+      "expected_rows": 3880877,
+      "bytes": 6913104,
+      "rows": 3880877,
+      "sha256": "32c876c126eadd1746465c74a59b80fb3659ff8db14efe50f2dae0f200b3e971",
+      "verified_utc": "2026-10-25T17:24:31.113271+00:00"
+    },
+    {
+      "name": "measurements_2024_08.parquet",
+      "url": "https://airquality.xkdr.org/v1/files/v1/measurements/year=2024/month=08/data.parquet",
+      "expected_rows": 3896122,
+      "bytes": 6771808,
+      "rows": 3896122,
+      "sha256": "02088c949fb490e4e2b4e71f79930ee943036ef98c4ea651fd3db394b503b74a",
+      "verified_utc": "2026-10-25T17:24:54.445719+00:00"
+    },
+    {
+      "name": "measurements_2024_09.parquet",
+      "url": "https://airquality.xkdr.org/v1/files/v1/measurements/year=2024/month=09/data.parquet",
+      "expected_rows": 3861703,
+      "bytes": 6905203,
+      "rows": 3861703,
+      "sha256": "4ad5e253fe40b16e5e3f11a698380b5af489dd463387e70a599708442a8b6143",
+      "verified_utc": "2026-10-25T17:24:51.885742+00:00"
+    },
+    {
+      "name": "measurements_2024_10.parquet",
+      "url": "https://airquality.xkdr.org/v1/files/v1/measurements/year=2024/month=10/data.parquet",
+      "expected_rows": 4120459,
+      "bytes": 7881226,
+      "rows": 4120459,
+      "sha256": "7a93efb9ba6656831e6076908d83477426ca1e5d66ac2e120b8eb0f09a811294",
+      "verified_utc": "2026-10-25T17:24:44.084395+00:00"
+    },
+    {
+      "name": "measurements_2024_11.parquet",
+      "url": "https://airquality.xkdr.org/v1/files/v1/measurements/year=2024/month=11/data.parquet",
+      "expected_rows": 4105120,
+      "bytes": 7982655,
+      "rows": 4105120,
+      "sha256": "822a894d114b84b34aac9b237f8cdf2e8e0dcd25839ec8ae418ba029a4e2590a",
+      "verified_utc": "2026-10-25T17:24:51.986072+00:00"
+    },
+    {
+      "name": "measurements_2024_12.parquet",
+      "url": "https://airquality.xkdr.org/v1/files/v1/measurements/year=2024/month=12/data.parquet",
+      "expected_rows": 4106660,
+      "bytes": 8069243,
+      "rows": 4106660,
+      "sha256": "c64c81a24d76ceb8b0a47a9e57c43c8a66a502082e098f36a4c81563113c8c1e",
+      "verified_utc": "2026-10-25T17:25:01.271761+00:00"
+    }
+  ],
+  "attribution": "India Air Quality Database, XKDR Forum (CC BY 4.0); CPCB CAAQM subset",
+  "excluded_candidate": "Published AQI mirror ends in 2023 and is excluded from 2024 outputs."
+}

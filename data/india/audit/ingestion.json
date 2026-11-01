@@ -1,0 +1,86 @@
+[
+  {
+    "month": 1,
+    "acquired_rows": 4002852,
+    "selected_cpcb_rows": 2314131,
+    "bronze_bytes": 6296219,
+    "seconds": 1.43
+  },
+  {
+    "month": 2,
+    "acquired_rows": 3729942,
+    "selected_cpcb_rows": 2155171,
+    "bronze_bytes": 5734837,
+    "seconds": 0.94
+  },
+  {
+    "month": 3,
+    "acquired_rows": 3939279,
+    "selected_cpcb_rows": 2277097,
+    "bronze_bytes": 5889146,
+    "seconds": 1.05
+  },
+  {
+    "month": 4,
+    "acquired_rows": 3766731,
+    "selected_cpcb_rows": 2175949,
+    "bronze_bytes": 5724510,
+    "seconds": 0.98
+  },
+  {
+    "month": 5,
+    "acquired_rows": 3855369,
+    "selected_cpcb_rows": 2223917,
+    "bronze_bytes": 5843634,
+    "seconds": 0.86
+  },
+  {
+    "month": 6,
+    "acquired_rows": 3672056,
+    "selected_cpcb_rows": 2112531,
+    "bronze_bytes": 5264917,
+    "seconds": 0.8
+  },
+  {
+    "month": 7,
+    "acquired_rows": 3880877,
+    "selected_cpcb_rows": 2230113,
+    "bronze_bytes": 5230215,
+    "seconds": 0.96
+  },
+  {
+    "month": 8,
+    "acquired_rows": 3896122,
+    "selected_cpcb_rows": 2232655,
+    "bronze_bytes": 5146237,
+    "seconds": 0.79
+  },
+  {
+    "month": 9,
+    "acquired_rows": 3861703,
+    "selected_cpcb_rows": 2214434,
+    "bronze_bytes": 5183577,
+    "seconds": 0.78
+  },
+  {
+    "month": 10,
+    "acquired_rows": 4120459,
+    "selected_cpcb_rows": 2368415,
+    "bronze_bytes": 5963402,
+    "seconds": 0.98
+  },
+  {
+    "month": 11,
+    "acquired_rows": 4105120,
+    "selected_cpcb_rows": 2357137,
+    "bronze_bytes": 6440199,
+    "seconds": 0.84
+  },
+  {
+    "month": 12,
+    "acquired_rows": 4106660,
+    "selected_cpcb_rows": 2360325,
+    "bronze_bytes": 6339080,
+    "seconds": 0.89
+  }
+]

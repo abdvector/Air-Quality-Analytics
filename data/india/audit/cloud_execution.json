@@ -1,0 +1,342 @@
+{
+  "executed": true,
+  "project": "my-project-2796-512407",
+  "jobs": [
+    {
+      "label": "measurements_2024_01.parquet",
+      "job_id": "5fa72986-b954-40d5-930f-e3395d5f3791",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_02.parquet",
+      "job_id": "c47fe8d8-10d8-4ad4-b008-0dc255bd8a59",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_03.parquet",
+      "job_id": "53ef092b-19ac-4043-b5d3-dc25f8d2571a",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_04.parquet",
+      "job_id": "e0bc2ffc-1cdf-4c94-b3f4-febacd2687e6",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_05.parquet",
+      "job_id": "ce379569-b709-4e67-ad8b-b59b6dd64fa4",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_06.parquet",
+      "job_id": "56cce55a-8196-450f-ae40-61fe14dea0f7",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_07.parquet",
+      "job_id": "189c6ad6-740f-4b7b-aa0a-11f60c346506",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_08.parquet",
+      "job_id": "4a7564c8-0f38-47b9-931b-48f145fd31dd",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_09.parquet",
+      "job_id": "7c696fcc-22f4-4a80-961b-797f62a66f3d",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_10.parquet",
+      "job_id": "51a3e71a-aa46-4eda-8d06-b3be0c60975d",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_01.parquet",
+      "job_id": "7971dbc0-6f4f-40a2-859c-f3813f86ae65",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_02.parquet",
+      "job_id": "4fb2679d-5ffe-47a2-a2bf-af677be5dbc7",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_03.parquet",
+      "job_id": "3078040a-d170-40d7-b42d-a7facd4272b9",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_04.parquet",
+      "job_id": "0d82828c-eefc-4d24-823b-d584316d4001",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_05.parquet",
+      "job_id": "1eb2288e-6a45-4667-9617-fe3840a21530",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_06.parquet",
+      "job_id": "f2e5f26b-cff0-41e2-856c-da776842dbe7",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_07.parquet",
+      "job_id": "8387e42c-50d5-42aa-ba47-b489434221c7",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_08.parquet",
+      "job_id": "0db51ad6-3813-4ebe-bcc2-97a9c2f48f26",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_09.parquet",
+      "job_id": "c4309609-5cb6-4132-8116-cf6f95d2b767",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_10.parquet",
+      "job_id": "8162cc2c-d0f8-4f77-a252-9dcf49fd7607",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_11.parquet",
+      "job_id": "0c7d792d-82aa-4c18-bf88-e3c73cbc713d",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "measurements_2024_12.parquet",
+      "job_id": "22dd270d-71e2-4c1d-aa24-05bd03f759ae",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "verified full hourly input count",
+      "job_id": "17b30343-4591-4ea4-89b2-53629ae8b699",
+      "bytes_processed": 216175000,
+      "slot_millis": 1354,
+      "state": "DONE"
+    },
+    {
+      "label": "stations",
+      "job_id": "23de445f-76d5-436e-8b82-b3fc191d6c0a",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "hourly_quality acquisition audit",
+      "job_id": "22b28f89-2d12-4bb3-b831-62050b2b8cbf",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "verified full hourly input count",
+      "job_id": "d0d53af2-1a1a-43bd-8fde-e608231c64ca",
+      "bytes_processed": 0,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "stations",
+      "job_id": "18d40bc4-a260-47eb-b37c-c505635a5a9c",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "hourly_quality acquisition audit",
+      "job_id": "1bb1688a-8a57-43f2-ace9-2d6b25617b95",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "01_india_hourly.sql",
+      "job_id": "510e317a-c81d-46b4-9f0f-b23e8b558e8a",
+      "bytes_processed": 1675996638,
+      "slot_millis": 521836,
+      "state": "DONE"
+    },
+    {
+      "label": "02_india_analysis.sql",
+      "job_id": "a18df648-ce39-426d-98a5-e403f0251e25",
+      "bytes_processed": 205365888,
+      "slot_millis": 61752,
+      "state": "DONE"
+    },
+    {
+      "label": "verified full hourly input count",
+      "job_id": "15dea43d-5409-4a2d-ac05-87677a288e48",
+      "bytes_processed": 0,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "stations",
+      "job_id": "c35f1c89-a165-47af-8ff4-f75fdca4f9ac",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "hourly_quality acquisition audit",
+      "job_id": "beba6c82-6f13-4e28-af0a-13be61aec556",
+      "bytes_processed": null,
+      "slot_millis": null,
+      "state": "DONE"
+    },
+    {
+      "label": "02_india_analysis.sql",
+      "job_id": "3ff82983-c748-4ef3-8303-39aa38f8798d",
+      "bytes_processed": 205365888,
+      "slot_millis": 65406,
+      "state": "DONE"
+    },
+    {
+      "label": "download station_daily CO",
+      "job_id": "a5fba7bb-3b35-495e-806a-fe17bf8f1a84",
+      "bytes_processed": 40121196,
+      "slot_millis": 818,
+      "state": "DONE"
+    },
+    {
+      "label": "download station_daily NH3",
+      "job_id": "0e2eee19-dc14-4b3a-b239-605f8237ae90",
+      "bytes_processed": 40121196,
+      "slot_millis": 1067,
+      "state": "DONE"
+    },
+    {
+      "label": "download station_daily NO2",
+      "job_id": "54e111da-698f-4fb6-8a48-2c81b5ef71db",
+      "bytes_processed": 80916629,
+      "slot_millis": 772,
+      "state": "DONE"
+    },
+    {
+      "label": "download station_daily O3",
+      "job_id": "5d2ba3b2-c17a-4aa0-a947-5348f5d2928f",
+      "bytes_processed": 40795433,
+      "slot_millis": 900,
+      "state": "DONE"
+    },
+    {
+      "label": "download station_daily PM10",
+      "job_id": "dbae5b30-ad73-4c04-a5a2-1fc787d34a26",
+      "bytes_processed": 78851897,
+      "slot_millis": 866,
+      "state": "DONE"
+    },
+    {
+      "label": "download station_daily PM2.5",
+      "job_id": "0b39ba86-80d1-42d8-980e-86980f77dfcd",
+      "bytes_processed": 38056464,
+      "slot_millis": 985,
+      "state": "DONE"
+    },
+    {
+      "label": "download station_daily SO2",
+      "job_id": "74a5c32d-0e35-4a84-81a5-33a2b5815657",
+      "bytes_processed": 38056464,
+      "slot_millis": 865,
+      "state": "DONE"
+    },
+    {
+      "label": "validated station_daily",
+      "job_id": "74a5c32d-0e35-4a84-81a5-33a2b5815657",
+      "bytes_processed": 38056464,
+      "slot_millis": 865,
+      "state": "DONE"
+    },
+    {
+      "label": "download overall_daily",
+      "job_id": "da7c804c-d7b2-4d85-a9c9-6efa9d606118",
+      "bytes_processed": 8553990,
+      "slot_millis": 325,
+      "state": "DONE"
+    },
+    {
+      "label": "validated overall_daily",
+      "job_id": "da7c804c-d7b2-4d85-a9c9-6efa9d606118",
+      "bytes_processed": 8553990,
+      "slot_millis": 325,
+      "state": "DONE"
+    },
+    {
+      "label": "download station_monthly",
+      "job_id": "c0e7908a-6637-4a28-a547-ca10ec1b0961",
+      "bytes_processed": 3900892,
+      "slot_millis": 244,
+      "state": "DONE"
+    },
+    {
+      "label": "validated station_monthly",
+      "job_id": "c0e7908a-6637-4a28-a547-ca10ec1b0961",
+      "bytes_processed": 3900892,
+      "slot_millis": 244,
+      "state": "DONE"
+    },
+    {
+      "label": "download station_annual",
+      "job_id": "16c98c3a-f293-4fff-ab55-76c53e041a62",
+      "bytes_processed": 260490,
+      "slot_millis": 8,
+      "state": "DONE"
+    },
+    {
+      "label": "validated station_annual",
+      "job_id": "16c98c3a-f293-4fff-ab55-76c53e041a62",
+      "bytes_processed": 260490,
+      "slot_millis": 8,
+      "state": "DONE"
+    }
+  ]
+}

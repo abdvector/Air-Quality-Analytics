@@ -1,0 +1,41 @@
+{
+  "country": "India",
+  "year": 2024,
+  "engine": "DuckDB local reference and validated BigQuery execution",
+  "cloud_executed": true,
+  "counts": {
+    "hourly_input": 27021875,
+    "clean_hourly": 27021875,
+    "station_daily": 1115522,
+    "stations": 533,
+    "overall_daily": 165652,
+    "acquired_all_parameter_rows": 46937170
+  },
+  "steps": [
+    {
+      "step": "01_clean_hourly.sql",
+      "seconds": 229.02
+    },
+    {
+      "step": "02_aqi_summaries.sql",
+      "seconds": 1.92
+    }
+  ],
+  "validation": {
+    "acquired_rows_match_publisher": true,
+    "bronze_row_reconciliation": true,
+    "unique_clean_hours": true,
+    "unique_station_days": true,
+    "seven_pollutants": true,
+    "composite_requires_three": true,
+    "composite_level_bounds": true,
+    "overall_unique_station_days": true,
+    "silver_export_matches_clean": true,
+    "metadata_join_preserves_rows": true
+  },
+  "conflicting_duplicate_hours": 0,
+  "stations_without_coordinates": 53,
+  "elapsed_seconds": 289.49,
+  "created_utc": "2026-10-25T17:36:05.618025+00:00",
+  "cloud_project": "my-project-2796-512407"
+}
