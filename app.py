@@ -8,7 +8,7 @@ from src.config import PATHS,POLLUTANTS
 from src.repository import read_cloud,read_cloud_analysis,read_cloud_comparison
 from src.india_bands import LABELS
 
-st.set_page_config(page_title='India Air Quality Atlas',page_icon='',layout='wide')
+st.set_page_config(page_title='India Air Quality Atlas',page_icon='\u25ce',layout='wide')
 st.markdown('''<style>.block-container{padding-top:3rem;max-width:1480px}h1{letter-spacing:-.04em}
 [data-testid="stMetric"]{border:1px solid #dce4ec;border-radius:12px;padding:14px}</style>''',unsafe_allow_html=True)
 st.caption('INDIA  /  CPCB MONITORING STATIONS  /  HISTORICAL DATA, 2024')
@@ -101,7 +101,7 @@ with tabs[1]:
     st.plotly_chart(px.imshow(matrix,aspect='auto',color_continuous_scale='YlOrRd',labels={'color':title,'x':'Month','y':'Station'}),width='stretch')
     st.caption('Blank cells lack sufficient day coverage. A monthly concentration summary or poor-day fraction is descriptive, not an official monthly AQI.')
     matrix=monthly.pivot(index='label',columns='month',values='coverage_pct')
-    st.plotly_chart(px.imshow(matrix,aspect='auto',range_color=[0,100],color_continuous_scale='Blues',labels={'color':'Coverage (%)'}),width='stretch')
+    st.plotly_chart(px.imshow(matrix,aspect='auto',range_color=[0,100],color_continuous_scale='Blues',labels={'color':'Coverage (%)','x':'Month','y':'Station'}),width='stretch')
 
 with tabs[2]:
     st.subheader('Compare stations over the same dates')
