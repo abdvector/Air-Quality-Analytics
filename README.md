@@ -36,7 +36,7 @@ tests/                    SQL, science rules and dashboard tests
 data/india/audit/          Small provenance and executed-job records
 data/india/{raw,bronze,silver,gold}/   Local reproducible data, ignored by Git
 output/india/             Findings, rankings, charts and verification results
-docs/                     Methodology, setup and academic deliverables
+docs/                     Methodology, setup and data documentation
 .streamlit/               Public config and secret-free credential example
 ```
 
@@ -62,16 +62,8 @@ Coverage uses all calendar days in the selected period. Missing days are never t
 
 The application describes historical 2024 monthly patterns. It does not predict pollution, identify causes or establish regulatory non-attainment. Missing pollutants can conceal a worse combined level. Stations without coordinates remain in the ranking but cannot appear on the map.
 
-[Methodology](docs/METHODOLOGY.md), [data dictionary](docs/DATA_DICTIONARY.md), [member preparation](docs/MEMBER_GUIDE.md) and [attribution](docs/DATA_ATTRIBUTION.md).
+[Methodology](docs/METHODOLOGY.md), [data dictionary](docs/DATA_DICTIONARY.md) and [attribution](docs/DATA_ATTRIBUTION.md).
 
 ## Source
 
 India Air Quality Database, XKDR Forum (2026), compiling CPCB CAAQM observations. Compilation licensed CC BY 4.0. https://airquality.xkdr.org/
-
-## Academic deliverables
-
-- [Project report, 13 pages](docs/report/India_Air_Quality_Report.pdf): grayscale LaTeX report with the architecture, methods, dashboard outputs, results and limitations.
-- [Presentation PDF, 10 content slides](docs/presentation/India_Air_Quality_Deck.pdf): compiled Beamer deck following the supplied academic style.
-- [Editable PowerPoint](docs/presentation/India_Air_Quality_Deck.pptx): matching content with editable text, tables and architecture diagram. It uses Arial for compatibility; the PDF uses Latin Modern fonts.
-
-Title pages are intentionally omitted for the authors to add. Both LaTeX sources and original dashboard captures are in docs/. Each document uses three references.

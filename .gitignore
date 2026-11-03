@@ -25,3 +25,14 @@ data/india/spill/
 data/india/warehouse.duckdb*
 data/india/cloud_upload/
 node_modules/
+
+# Local reports, presentations and their source assets
+*.pdf
+*.ppt
+*.pptx
+/docs/report/
+/docs/presentation/
+/docs/assets/
+/docs/ARTIFACTS.md
+/docs/MEMBER_GUIDE.md
+/output/pdf/
